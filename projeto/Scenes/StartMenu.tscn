@@ -3,7 +3,6 @@
 [ext_resource path="res://Scenes/StartMenu.gd" type="Script" id=1]
 [ext_resource path="res://Background/LogoNew.jpeg" type="Texture" id=2]
 
-
 [sub_resource type="AnimatedTexture" id=1]
 
 [node name="StartMenu" type="Control"]
@@ -19,15 +18,15 @@ margin_right = 24.0
 margin_bottom = 24.0
 
 [node name="Menu" type="VBoxContainer" parent="CenterContainer"]
-margin_left = 433.0
+margin_left = 448.0
 margin_top = 305.0
-margin_right = 615.0
+margin_right = 600.0
 margin_bottom = 319.0
 
 [node name="Titulo" type="Label" parent="CenterContainer/Menu"]
-margin_right = 182.0
+margin_right = 152.0
 margin_bottom = 14.0
-text = "Viktinho Gameplay Hardcore"
+text = "Gui Gameplay Hardcore"
 
 [node name="Sprite" type="Sprite" parent="CenterContainer/Menu/Titulo"]
 pause_mode = 2
